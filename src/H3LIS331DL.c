@@ -28,7 +28,7 @@ double* accelerometer_get_all_axis(){ //Maybe make a struct to store/access acce
     uint8_t buffer[6]; //need enough space for MSB register and LSB register of each axis
     i2c_read_blocking(I2C_PORT, ACCELEROMETER_ADDRESS, buffer, 6, false); //same here with the read bit of the address, data stored in buffer 
     uint16_t* collapsed_buffer = (uint16_t*) buffer; //array decays into pointer to first element which I cast to a uint16_t pointer
-    double results[3];
+    static double results[3];
     for (int i = 0; i < 3; ++i){
         results[i] = collapsed_buffer[i] * ACCEL_SENSITIVITY / 1000.0; //divided by 1000.0. for gs + makes it a double
     }
