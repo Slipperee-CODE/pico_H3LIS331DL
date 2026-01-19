@@ -129,7 +129,7 @@ CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE
 CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=C:/Users/CAIS/Documents/GitHubRepositories/pico_H3LIS331DL/build/CMakeFiles/pkgRedirects
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/H3LIS331DL
+CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/pico_H3LIS331DL
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=C:/Users/CAIS/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-ld.exe
@@ -171,7 +171,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=H3LIS331DL
+CMAKE_PROJECT_NAME:STATIC=default_test
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=C:/Users/CAIS/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-ranlib.exe
@@ -260,15 +260,6 @@ FETCHCONTENT_QUIET:BOOL=ON
 //Enables UPDATE_DISCONNECTED behavior for all content population
 FETCHCONTENT_UPDATES_DISCONNECTED:BOOL=OFF
 
-//Value Computed by CMake
-H3LIS331DL_BINARY_DIR:STATIC=C:/Users/CAIS/Documents/GitHubRepositories/pico_H3LIS331DL/build
-
-//Value Computed by CMake
-H3LIS331DL_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-H3LIS331DL_SOURCE_DIR:STATIC=C:/Users/CAIS/Documents/GitHubRepositories/pico_H3LIS331DL
-
 //PICO target board (e.g. pico, pico2)
 PICO_BOARD:STRING=pico2
 
@@ -333,7 +324,34 @@ PICO_STDIO_UART:BOOL=ON
 PICO_STDIO_USB:BOOL=OFF
 
 //No help, variable specified on the command line.
-Python3_EXECUTABLE:STRING=C:/Users/CAIS/.pico-sdk/python/3.13.7/python.exe
+Python3_EXECUTABLE:UNINITIALIZED=C:/Users/CAIS/.pico-sdk/python/3.13.7/python.exe
+
+//Value Computed by CMake
+default_test_BINARY_DIR:STATIC=C:/Users/CAIS/Documents/GitHubRepositories/pico_H3LIS331DL/build
+
+//Value Computed by CMake
+default_test_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+default_test_SOURCE_DIR:STATIC=C:/Users/CAIS/Documents/GitHubRepositories/pico_H3LIS331DL
+
+//Value Computed by CMake
+pico_H3LIS331DL1_BINARY_DIR:STATIC=C:/Users/CAIS/Documents/GitHubRepositories/pico_H3LIS331DL/build
+
+//Value Computed by CMake
+pico_H3LIS331DL1_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+pico_H3LIS331DL1_SOURCE_DIR:STATIC=C:/Users/CAIS/Documents/GitHubRepositories/pico_H3LIS331DL
+
+//Value Computed by CMake
+pico_H3LIS331DL_BINARY_DIR:STATIC=C:/Users/CAIS/Documents/GitHubRepositories/pico_H3LIS331DL/build
+
+//Value Computed by CMake
+pico_H3LIS331DL_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+pico_H3LIS331DL_SOURCE_DIR:STATIC=C:/Users/CAIS/Documents/GitHubRepositories/pico_H3LIS331DL
 
 //Value Computed by CMake
 pico_sdk_BINARY_DIR:STATIC=C:/Users/CAIS/Documents/GitHubRepositories/pico_H3LIS331DL/build/pico-sdk

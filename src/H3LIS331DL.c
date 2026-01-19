@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "H3LIS331DL.h"
 
 static i2c_inst_t* I2C_PORT = NULL;
@@ -45,4 +46,8 @@ double accelerometer_get_y(){
 
 double accelerometer_get_z(){
     return accelerometer_get_all_axis()[2];
+}
+
+void does_library_work(){
+    printf("Accessing the library is functioning properly! \n");
 }

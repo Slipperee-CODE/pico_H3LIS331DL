@@ -1,4 +1,5 @@
-C:/Users/CAIS/Documents/GitHubRepositories/pico_H3LIS331DL/build/CMakeFiles/H3LIS331DL.dir
+C:/Users/CAIS/Documents/GitHubRepositories/pico_H3LIS331DL/build/CMakeFiles/pico_H3LIS331DL.dir
+C:/Users/CAIS/Documents/GitHubRepositories/pico_H3LIS331DL/build/CMakeFiles/default_test.dir
 C:/Users/CAIS/Documents/GitHubRepositories/pico_H3LIS331DL/build/CMakeFiles/edit_cache.dir
 C:/Users/CAIS/Documents/GitHubRepositories/pico_H3LIS331DL/build/CMakeFiles/rebuild_cache.dir
 C:/Users/CAIS/Documents/GitHubRepositories/pico_H3LIS331DL/build/pico-sdk/CMakeFiles/edit_cache.dir

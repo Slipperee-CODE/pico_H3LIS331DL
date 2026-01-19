@@ -771,7 +771,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/H3LIS331DL"
+			"value" : "C:/Program Files (x86)/pico_H3LIS331DL"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -991,7 +991,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "H3LIS331DL"
+			"value" : "default_test"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1392,42 +1392,6 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "[C:/Users/CAIS/.pico-sdk/python/3.13.7/python.exe][cfound components: Interpreter ][v3.13.7()]"
-		},
-		{
-			"name" : "H3LIS331DL_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/CAIS/Documents/GitHubRepositories/pico_H3LIS331DL/build"
-		},
-		{
-			"name" : "H3LIS331DL_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "H3LIS331DL_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/CAIS/Documents/GitHubRepositories/pico_H3LIS331DL"
 		},
 		{
 			"name" : "PICO_32BIT",
@@ -1978,7 +1942,7 @@
 					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "UNINITIALIZED",
 			"value" : "C:/Users/CAIS/.pico-sdk/python/3.13.7/python.exe"
 		},
 		{
@@ -2052,6 +2016,114 @@
 			],
 			"type" : "INTERNAL",
 			"value" : ""
+		},
+		{
+			"name" : "default_test_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/CAIS/Documents/GitHubRepositories/pico_H3LIS331DL/build"
+		},
+		{
+			"name" : "default_test_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "default_test_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/CAIS/Documents/GitHubRepositories/pico_H3LIS331DL"
+		},
+		{
+			"name" : "pico_H3LIS331DL1_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/CAIS/Documents/GitHubRepositories/pico_H3LIS331DL/build"
+		},
+		{
+			"name" : "pico_H3LIS331DL1_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "pico_H3LIS331DL1_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/CAIS/Documents/GitHubRepositories/pico_H3LIS331DL"
+		},
+		{
+			"name" : "pico_H3LIS331DL_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/CAIS/Documents/GitHubRepositories/pico_H3LIS331DL/build"
+		},
+		{
+			"name" : "pico_H3LIS331DL_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "pico_H3LIS331DL_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/CAIS/Documents/GitHubRepositories/pico_H3LIS331DL"
 		},
 		{
 			"name" : "pico_sdk_BINARY_DIR",

@@ -60,3 +60,5 @@ double accelerometer_get_x();
 double accelerometer_get_y();
 
 double accelerometer_get_z();
+
+void does_library_work();
